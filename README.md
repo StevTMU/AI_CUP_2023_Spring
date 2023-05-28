@@ -14,7 +14,7 @@ os.chdir(my_working_root)
 
 將working root路徑改為在第一步共享的雲端硬碟捷徑，並仿照上方格式
 
-3.更改在『資料處理』的程式碼：
+3. 更改在『資料處理』的程式碼：
 『
 ##讀取資料表
 df = pd.read_csv("/content/gdrive/Shareddrives/1112_AI智慧醫療三日工作坊/教材/Training Dataset/training datalist.csv")
