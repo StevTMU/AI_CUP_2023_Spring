@@ -12,7 +12,7 @@ my_working_root = "/content/gdrive/Shareddrives/1112_AI智慧醫療三日工作�
 os.chdir(my_working_root)
 』
 
-將working root路徑改為在第一步共享的雲端硬碟捷徑，並仿照上方格式
+將working root路徑改為自己的的雲端硬碟內，並仿照上方格式
 
 3. 更改在『資料處理』的程式碼：
 『
