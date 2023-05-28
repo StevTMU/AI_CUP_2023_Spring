@@ -8,16 +8,16 @@ https://drive.google.com/drive/folders/1q7hLdK0AqJyM2mBwwlmTk1j2eaZPV1i9?usp=sha
 
 2. 更改在『~ 環境準備』的程式碼：
 『
-my_working_root = "/content/gdrive/Shareddrives/1112_AI智慧醫療三日工作坊/第04大組_Pony小馬車/code"
+my_working_root = "連結"
 os.chdir(my_working_root)
 』
 
-將working root路徑改為自己的的雲端硬碟內，並仿照上方格式
+將working root路徑改為自己的的雲端硬碟內
 
 3. 更改在『資料處理』的程式碼：
 『
 ##讀取資料表
-df = pd.read_csv("/content/gdrive/Shareddrives/1112_AI智慧醫療三日工作坊/教材/Training Dataset/training datalist.csv")
+df = pd.read_csv("連結")
 df
 』
 將csv路徑改為 https://drive.google.com/drive/folders/1_qXKLqQq7YPtXvARj05ebxoIw0APRlUW?usp=sharing 
