@@ -2,7 +2,7 @@
 
 「TEAM_3693_MLP_FinalUpdate」是我們最後交出的檔案，其餘「TEAM_3693_CNN」、「TEAM_3693_MLP+CNN」均為比較模型，用以比較三者模型效能之差異。
 
-Usage: 
+# Usage: 
 1. 使用前請先點以下連結，並加入自己雲端硬碟的捷徑
 https://drive.google.com/drive/folders/1q7hLdK0AqJyM2mBwwlmTk1j2eaZPV1i9?usp=share_link
 
@@ -16,7 +16,7 @@ os.chdir(my_working_root)
 
 3.更改在『資料處理』的程式碼：
 『
-# 讀取資料表
+##讀取資料表
 df = pd.read_csv("/content/gdrive/Shareddrives/1112_AI智慧醫療三日工作坊/教材/Training Dataset/training datalist.csv")
 df
 』
